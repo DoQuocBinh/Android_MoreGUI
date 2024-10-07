@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         btnGoiy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cbString.setChecked(true);
+                cbString.setChecked(!cbString.isChecked());
             }
         });
 
